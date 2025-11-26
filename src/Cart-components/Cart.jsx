@@ -117,14 +117,3 @@ function Cart() {
   )
 };
 export default Cart
-
-
-
-
-
-// if(products.qty === 1){
-      //   alert("1 product added to cart");
-      // }
-      // else{
-      //   alert(`${products.qty} products added to cart`);
-      // }
