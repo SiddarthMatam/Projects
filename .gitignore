@@ -22,7 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-
-src/Counter-components/Counter.jsx, counter.css
-src/Practice-components/Practice.jsx

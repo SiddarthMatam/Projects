@@ -2,11 +2,11 @@ import {useState} from 'react'
 import './Calculator.css'
 
 function Calculator() {
-  const [number, setNumber] = useState();
-  const [backup, setBackup] = useState();
+  const [number, setNumber] = useState("");
+  const [backup, setBackup] = useState("");
 
-  const controller = e => {
-    setNumber(e.target.value);
+  const controller = event => {
+    setNumber(event.target.value);
   }
 
   const clear = () =>{
@@ -49,7 +49,7 @@ function Calculator() {
 
   return (
     <div className='container'>
-      <input className='input-box' type="text" value={number} onChange={controller}/><br/>
+      <input className='input-box' type="text" value={number} name="number" onChange={controller}/><br/>
       <div>
         <button className="btn operation" onClick={clear}>C</button>
         <button className='btn operation' onClick={modulos}>P</button>

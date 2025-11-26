@@ -1,0 +1,50 @@
+.image{
+    height:120px;
+    width:auto;
+    border-radius:10px;
+}
+
+.main-heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 13, 0);
+    text-align:center;
+}
+
+.button{
+    margin:5px;
+    padding:10px;
+    font-size:16px;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+}
+
+.add-btn{
+    background-color:#00e676;   
+    color:white;
+}
+
+.sub-btn{
+    background-color:#ff5252;
+    color:white;
+}
+
+.cart-btn{
+    background-color:#00b0ff;   
+    color:white;
+}
+
+.card-container{
+    border:2px solid #fff;
+    width:250px;
+    margin-left:10px;
+    padding-bottom:20px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow:3px 3px 10px grey;
+}
+
+.item-quantity{
+    font-size:20px;
+    font-weight:bold;
+}
