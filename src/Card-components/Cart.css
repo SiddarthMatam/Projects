@@ -1,21 +1,24 @@
-.image{
-    height:120px;
-    width:auto;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.item-image{
+    height:100px;
+    width:100px;
     border-radius:10px;
+    margin-bottom:10px;
 }
 
 .main-heading{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(255, 13, 0);
+    font-family:"Poopins", sans-serif;
+    color:#2b7199;
     text-align:center;
 }
 
 .button{
     margin:5px;
     padding:10px;
-    font-size:16px;
-    border-radius:5px;
+    font-size:13px;
     border:none;
+    border-radius:5px;
     cursor:pointer;
 }
 
@@ -32,19 +35,39 @@
 .cart-btn{
     background-color:#00b0ff;   
     color:white;
+    font-family:"Poppins";
 }
 
 .card-container{
-    border:2px solid #fff;
+    border:2px solid #d9bebe;
     width:250px;
     margin-left:10px;
-    padding-bottom:20px;
+    padding:17px;
+    margin:13px;
     text-align: center;
     border-radius:10px;
+}
+
+.card-container:hover{
+    background-color: #faf0f0;
     box-shadow:3px 3px 10px grey;
 }
 
 .item-quantity{
     font-size:20px;
     font-weight:bold;
+}
+
+.item-price{
+    font-family:"Poopins", sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display:inline-block;
+}
+
+.item-name{
+    font-family: "Poppins", sans-serif; 
+    color:#a94848
 }

@@ -10,8 +10,8 @@ function App() {
     <>
     {/* <Calculator/> */}
     {/* <Counter/> */}
-    {/* <Cart/> */}
-    <Practice/>
+    <Cart/>
+    {/* <Practice/> */}
     </>
   )
 }
