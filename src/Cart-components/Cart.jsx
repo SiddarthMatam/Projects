@@ -21,7 +21,7 @@ function Cart() {
         id: 3,
         name: "Idli",
         image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe.jpg",
-        qty: 1,
+        qty: 3,
         price: "Rs 30/-"
       },
       {
